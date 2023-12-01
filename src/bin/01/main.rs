@@ -8,7 +8,6 @@ fn main() -> anyhow::Result<()> {
             .iter()
             .find(|&&c| c >= b'0' && c <= b'9')
             .unwrap()
-            .clone()
             - b'0';
         let last_d: u8 = line
             .as_bytes()
@@ -16,7 +15,6 @@ fn main() -> anyhow::Result<()> {
             .rev()
             .find(|&&c| c >= b'0' && c <= b'9')
             .unwrap()
-            .clone()
             - b'0';
         result += first_d as u32 * 10 + last_d as u32
     }
