@@ -12,3 +12,8 @@ anyhow = "1.0.75"
 name = "01"
 test = false
 bench = false
+
+[[bin]]
+name = "02"
+test = false
+bench = false
