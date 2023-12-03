@@ -17,3 +17,8 @@ bench = false
 name = "02"
 test = false
 bench = false
+
+[[bin]]
+name = "03"
+test = false
+bench = false
